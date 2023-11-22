@@ -1,11 +1,13 @@
-import { PrismicRichText } from "@prismicio/react";
-import React from "react";
 import styled from "styled-components";
 
 export const Container = styled.main`
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 2rem;
+
+  img {
+    width: 100%;
+  }
 `;
 
 export const PostContainer = styled.article`

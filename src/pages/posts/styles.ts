@@ -43,6 +43,10 @@ export const Post = styled.section`
       color: var(--yellow-500);
     }
   }
+
+  @media (max-width: 720px) {
+    margin: 2.5rem auto 0;
+  }
 `;
 
 export const Chip = styled.span`

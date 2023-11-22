@@ -10,6 +10,14 @@ export const Container = styled.main`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+    img {
+      margin-top: 2.5rem;
+      padding-bottom: 2rem;
+    }
+  }
 `;
 
 export const Hero = styled.section`
@@ -40,6 +48,9 @@ export const Hero = styled.section`
       font-weight: bold;
     }
   }
+
+  @media (max-width: 720px) {
+  }
 `;
 
 export const RedirectButton = styled(Link)`
@@ -62,5 +73,9 @@ export const RedirectButton = styled(Link)`
 
   &:hover {
     filter: brightness(0.8);
+  }
+
+  @media (max-width: 720px) {
+    margin: 2.5rem auto;
   }
 `;

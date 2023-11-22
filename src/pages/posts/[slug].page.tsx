@@ -30,7 +30,7 @@ export default function Post({ post }: PostProps) {
         <title>{post.title} | awb.talks</title>
       </Head>
       <Container>
-        <PrismicNextImage field={post.bannerImage} height={250} width={1120} />
+        <PrismicNextImage field={post.bannerImage} height={250} />
         <PostContainer>
           <h1>{post.title}</h1>
           <time>{post.updatedAt}</time>

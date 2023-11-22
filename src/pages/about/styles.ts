@@ -12,10 +12,72 @@ export const Container = styled.main`
   justify-content: space-between;
 
   img {
-    height: 50%;
+    height: 25rem;
+    width: 25rem;
     border-radius: 100%;
     padding: 1rem;
     border: 10px solid var(--gray-850);
+  }
+
+  @media (max-width: 720px) {
+    flex-direction: column-reverse;
+    height: calc(100vh + 25rem);
+  }
+
+  @media only screen and (max-width: 430px) {
+    flex-direction: column-reverse;
+    height: calc(100vh + 15rem);
+    gap: 3rem;
+
+    img {
+      height: 20rem;
+      width: 20rem;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    flex-direction: column-reverse;
+    height: calc(100vh + 20rem);
+    gap: 3rem;
+
+    img {
+      height: 18rem;
+      width: 18rem;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    flex-direction: column-reverse;
+    height: calc(100vh + 30rem);
+    gap: 3rem;
+
+    img {
+      height: 18rem;
+      width: 18rem;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    flex-direction: column-reverse;
+    height: calc(100vh + 23rem);
+    gap: 3rem;
+
+    img {
+      height: 18rem;
+      width: 18rem;
+    }
+  }
+
+  @media only screen and (max-width: 280px) {
+    flex-direction: column-reverse;
+    height: calc(100vh + 32rem);
+    gap: 3rem;
+    background: blue;
+
+    img {
+      height: 18rem;
+      width: 18rem;
+    }
   }
 `;
 

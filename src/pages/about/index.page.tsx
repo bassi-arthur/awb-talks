@@ -41,7 +41,6 @@ export default function About() {
           src={ProfileImage}
           alt="Arthur winiarski bassi"
           priority={true}
-          height={500}
         />
         <main />
       </Container>
