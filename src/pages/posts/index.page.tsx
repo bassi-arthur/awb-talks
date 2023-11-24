@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Chip, Post, PostsContainer } from "./styles";
+import { Chip, Post, PostsContainer } from "./listPostStyles";
 import Link from "next/link";
 import { GetStaticProps } from "next";
 import { prismic } from "@/lib/prismic";

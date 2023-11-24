@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Head from "next/head";
-import { Container, PostContainer } from "./style";
+import { Container, PostContainer } from "./postStyle";
 import { prismic } from "@/lib/prismic";
 import { GetServerSideProps } from "next";
 import { ParsedUrlQuery } from "querystring";
