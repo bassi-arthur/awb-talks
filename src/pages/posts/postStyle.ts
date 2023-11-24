@@ -13,6 +13,8 @@ export const Container = styled.main`
 export const PostContainer = styled.article`
   max-width: 720px;
   margin: 5rem auto 0;
+  font-size: 1.25rem;
+  color: var(--gray-100);
 
   h1 {
     font-size: 3.5rem;
@@ -30,7 +32,6 @@ export const PostContainer = styled.article`
     margin-top: 2rem;
     line-height: 2rem;
     font-size: 1.25rem;
-    color: var(--gray-100);
   }
 
   p,
